@@ -12,6 +12,8 @@ It's our podcast about what it means to be a teenager in the 21st century. This 
 ### What makes this player unique?
 While other players require you to put in to work to make sure they are embedded in such a way that the content fits within the iframe, this one will automatically expand to fill a frame of any size, allowing you to build the website of your dreams without having to work around an uncooperative embedded embedded player. While some elements may not fit within the box at small sizes, this can be easily fixed by resizing these elements. Over time, we hope to improve the player to automatically adapt to iframes of any size by changing the size of the text and the control elements.
 
+Additionally, unlike general music players, this player will not preload the audio file, ensuring that your analytics are counting episode plays, not page loads.
+
 ### How can I contribute to the project?
 You should read through our [contribution guidelines](.github/CONTRIBUTING.md) and [Code of Conduct](.github/CODE_OF_CONDUCT.md) before getting started. That being said, every contribution to the project starts by filing an issue, so go ahead an report bugs, request features, and ask questions in the issues tab.
 
