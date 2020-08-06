@@ -15,7 +15,7 @@ While other players require you to put in to work to make sure they are embedded
 Additionally, unlike general music players, this player will not preload the audio file, ensuring that your analytics are counting episode plays, not page loads.
 
 ### How can I contribute to the project?
-You should read through our [contribution guidelines](.github/CONTRIBUTING.md) and [Code of Conduct](.github/CODE_OF_CONDUCT.md) before getting started. That being said, every contribution to the project starts by filing an issue, so go ahead an report bugs, request features, and ask questions in the issues tab.
+You should read through our [Contribution Guidelines](.github/CONTRIBUTING.md) and [Code of Conduct](.github/CODE_OF_CONDUCT.md) before getting started. That being said, every contribution to the project starts by filing an issue, so go ahead an report bugs, request features, and ask questions in the issues tab.
 
 ### How do I use the player?
 There are a number of modifications that can be made to the player, including the colors of the outer border, the appearance and animation of the text, and the background color of the control area. All of this can be done through the mainstyle.css file. Once you have completed your customizations, you can set up the player using the process described in the Wiki. These are organized by the major update number of the release/version you are using (the number before the decimal point), so make sure you are looking at the instructions for the correct version. If you need additional help, you can file an issue and we'll be happy to lend a hand.
