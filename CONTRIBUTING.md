@@ -17,7 +17,7 @@ Part of the development process is checking that your change has resolved the is
 1. The issue has been resolved to the full extent of your testing
 2. Your modifications to the code do not cause any functional or aesthetic changes beyond those necessary to resolve the issue
 
-Once you feel your code has met both of these requirements, you can move on to the next step
+Once you feel your code has met both of these requirements, you can move on to the next step.
 
 ## Pull Requests
 Once you have finished the development process, it's time to add your code to the project. To do so, simply create a pull request with your fork. **Make sure you link to the original issue in your pull request. Pull requests that do not link to an existing issue will be ignored to avoid spam.** Once you have created a pull request, it will go through the following review process before being integrated into the main project.
