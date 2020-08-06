@@ -29,5 +29,7 @@ In many cases (especially when you are introducing new features), we will create
 
 #### Merging
 Once your code has met all the requirements and any related bugs have been resolved, we will approve your pull request for merging. Usually, we will merge all pull requests into a new branch that will eventually be merged into the master branch for a new release. Once the original issue is marked as closed, your responsibility to complete all tasks related to that issue has ended, although this does not apply in cases where the issue is accidentally closed (such as when a pull request is merged into a new branch for testing and the bug is automatically closed).
+
 ---
+
 As you can see, there are many ways to contribute to this project, regardless of your skill level. If you're just getting started, try creating an issue or resolving one of the issues with the `good first issue` label. If you have any questions regarding these guidelines, create an issue and we'll be happy to clarify.
