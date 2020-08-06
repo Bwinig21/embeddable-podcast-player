@@ -1,4 +1,4 @@
-#Contribution Guidelines
+# Contribution Guidelines
 
 Hi! We're glad to see that you're considering contributing to this project. From bug reports to helping to develop completely new features, your contributions are the backbone of any open source project, and ours is no different. 
 
