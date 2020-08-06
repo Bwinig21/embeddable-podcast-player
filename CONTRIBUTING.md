@@ -13,8 +13,10 @@ This is your time to shine! Create a fork of the project and get to work resolvi
 
 ### Testing
 Part of the development process is checking that your change has resolved the issue. Please test your code on as many devices and browsers as is convienent for you to ensure that:
+
 1. The issue has been resolved to the full extent of your testing
 2. Your modifications to the code do not cause any functional or aesthetic changes beyond those necessary to resolve the issue
+
 Once you feel your code has met both of these requirements, you can move on to the next step
 
 ## Pull Requests
