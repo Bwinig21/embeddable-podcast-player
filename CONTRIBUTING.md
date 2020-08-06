@@ -27,7 +27,7 @@ Excluding the changes necessary to resolve the issue linked in your pull request
 #### Branching
 In many cases (especially when you are introducing new features), we will create a new branch and have you merge your file into that branch for additional testing. At this point, it is no longer necessary for you to be actively contributing to the review process, although it is your responsibility to resolve any issues that are discovered during this testing, so you should check for updates to both the original issue any pull requests that link to it regularly. Once your code is determined to be bug-free, we will merge the branch with the master branch and close the issue.
 
-#### Merging
+## Merging
 Once your code has met all the requirements and any related bugs have been resolved, we will approve your pull request for merging. Usually, we will merge all pull requests into a new branch that will eventually be merged into the master branch for a new release. Once the original issue is marked as closed, your responsibility to complete all tasks related to that issue has ended, although this does not apply in cases where the issue is accidentally closed (such as when a pull request is merged into a new branch for testing and the bug is automatically closed).
 
 ---
