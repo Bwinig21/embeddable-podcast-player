@@ -7,7 +7,7 @@ A simple, customizable podcast player for you to embed on your website.
 Put simply, this is an open-source version of the embedded player found on [The Human Equation's website](https://rebrand.ly/human-equation). It was designed with podcasts in mind, but it can be used to play any type of audio.
 
 ### What's The Human Equation?
-It's our podcast about what it means to be a teenager in the 21st century. This project is managed by Benjamin, on of the cohosts.
+It's our podcast about what it means to be a teenager in the 21st century. This project is managed by Benjamin, one of our cohosts.
 
 ### What makes this player unique?
 While other players require you to put in to work to make sure they are embedded in such a way that the content fits within the iframe, this one will automatically expand to fill a frame of any size, allowing you to build the website of your dreams without having to work around an uncooperative embedded embedded player. While some elements may not fit within the box at small sizes, this can be easily fixed by resizing these elements. Over time, we hope to improve the player to automatically adapt to iframes of any size by changing the size of the text and the control elements.
