@@ -20,8 +20,11 @@ Issues with yellow labels are new features that we're planning on implementing i
 #### Green: `good first issue`
 Being beginners at this coding thing ourselves, we understand how scary it is to take on an issue for the first time. A little hesitancy is completely normal, and we want to help you overcome that by marking the issues that most beginners should be able to solve with a green label. If you're just starting out, look for green and see if it's an issue you're capable of solving. If you find out later that you're in over your head, let us know and we'll be happy to provide support or even assign the issue to someone else, if necessary. Issues with green labels that already have somebody assigned to them are unlikely to reqire additional people, but feel free to offer to help in the discussion so that we have a backup plan if something goes wrong.
 
-#### Blue `documentation`
+#### Light Blue: `documentation`
 If an issue has a blue label it most likely means we screwed up in our README.md or Wiki by not providing enough information. While we don't often need help resolving these issues, you're welcome to chime in to let us know what would be a better way to provide the necessary information in our documentation.
+
+#### Dark Blue: `feedback`
+Before we fix the bug, update the documentation, or add the feature described in the issue, we want your feedback on what the changes should look like in order to best support you as a developer and/or a podcaster. React to comments you agree with using a :+1: or add your own feedback and ideas in a new comment. Issues with this label have a better outcome for everyone when we hear more from you and the rest of the community.
 
 #### Pink-ish: `question`
 Issues with this label are questions about how to use or contribute to the project. These are usually answered at the same time the label is applied, but you're welcome to share additional information or suggest that we answer the question in our documentation (if the issue doesn't already have a `documentation` label.
