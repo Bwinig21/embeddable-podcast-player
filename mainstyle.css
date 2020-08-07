@@ -61,7 +61,7 @@ body {
   margin-bottom: 0.25em;
   transition-duration: 500ms;
   opacity: 0;
-  color: orange;
+  color: #137333;
 }
 
 #progress {
