@@ -27,7 +27,7 @@ var interval;
 var updateInterval = 500; //Interval between progress bar updates
 
 //End of episode resets controls
-audio.addEventListener("ended", function() {
+audio.addEventListener("ended", function () {
   "use strict";
   pause();
   progressBar.value = 0;

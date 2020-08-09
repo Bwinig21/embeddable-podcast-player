@@ -1,47 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="robots" content="noindex, nofollow" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="mainstyle.css" type="text/css" />
-  </head>
-  <!--Audio element-->
-  <audio id="audio" preload="none"></audio>
 
-  <body>
-    <!--Colorful border-->
-    <div id="colored">
-      <!--Inner solid-color area-->
-      <div id="inner">
-        <!--Play/Pause button-->
-        <img
-          id="playPause"
-          onclick="playPause()"
-          src="assets/play.svg"
-          alt="Play"
-        />
-        <!--Centered playback area-->
-        <div id="playback">
-          <!--Visible eisode information-->
-          <div id="info">
-            <h1 id="title"></h1>
-            <h2 id="description"></h2>
-          </div>
-          <!--Progress bar-->
-          <input
-            type="range"
-            id="progress"
-            min="0"
-            max=""
-            onmousedown="preventUpdate()"
-            onchange="skip()"
-          />
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="mainstyle.css" type="text/css" />
+</head>
+<!--Audio element-->
+<audio id="audio" preload="none"></audio>
+
+<body>
+  <!--Colorful border-->
+  <div id="colored">
+    <!--Inner solid-color area-->
+    <div id="inner">
+      <!--Play/Pause button-->
+      <img id="playPause" onclick="playPause()" src="assets/play.svg" alt="Play" />
+      <!--Centered playback area-->
+      <div id="playback">
+        <!--Visible eisode information-->
+        <div id="info">
+          <h1 id="title"></h1>
+          <h2 id="description"></h2>
         </div>
-        <!--Episode artwork-->
-        <img id="artwork" alt="Episode artwork" />
+        <!--Progress bar-->
+        <input type="range" id="progress" min="0" max="" onmousedown="preventUpdate()" onchange="skip()" />
       </div>
+      <!--Episode artwork-->
+      <img id="artwork" alt="Episode artwork" />
     </div>
-  </body>
-  <script src="script.js"></script>
+  </div>
+</body>
+<script src="script.js"></script>
+
 </html>
