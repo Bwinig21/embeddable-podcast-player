@@ -17,11 +17,12 @@ function getElem(id) {
 var audio = getElem("audio");
 getElem("title").innerHTML += episode.title;
 getElem("description").innerHTML = episode.description;
+getElem("artwork").src = episode.image;
 getElem("audio").src = episode.URL;
 var progressBar = getElem("progress");
 progressBar.max = episode.duration;
-getElem("artwork").src = episode.image;
 progressBar.value = 0;
+var border = getElem("colored");
 var playing = false;
 var interval;
 var updateInterval = 500; //Interval between progress bar updates
@@ -65,6 +66,7 @@ function play() {
   getElem("playPause").alt = "Pause";
   interval = setInterval(updateProgress, updateInterval);
   displayInfo();
+  border.style.animationPlayState = "running";
 }
 
 //Switch from playing to paused
@@ -75,6 +77,7 @@ function pause() {
   getElem("playPause").src = "assets/play.svg";
   getElem("playPause").alt = "Play";
   clearInterval(interval);
+  border.style.animationPlayState = "paused";
 }
 
 //Allow progress bar to control playback position

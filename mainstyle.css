@@ -22,28 +22,29 @@ body {
 }
 
 #colored {
-  height: 100%;
-  padding: 0.3em;
-  box-sizing: border-box;
-  border-radius: 10px;
-  overflow: hidden;
   position: fixed;
   top: 0;
   height: 100%;
   width: 100%;
+  padding: 0.3em;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  animation-play-state: paused;
 }
 
 #colored::before {
-  content: "";
   position: absolute;
+  top: calc(-30in + 50%);
+  left: calc(-30in + 50%);
   z-index: -1;
-  left: -150%;
-  top: -150%;
-  width: 400%;
-  height: 400%;
-  background-repeat: no-repeat;
-  background-image: conic-gradient(#f1f100 0turn .25turn, #ff0000 .25turn .5turn, #000000 .5turn .75turn, #0000ff .75turn 1turn);
+  height: 60in;
+  width: 60in;
+  margin: -0.3em;
+  content: "";
+  background: conic-gradient(#ff0000 0turn .25turn, #0000ff .25turn .5turn, #000000 .5turn .75turn, #f1f100 .75turn 1turn) no-repeat;
   animation: rotate 10s linear infinite;
+  animation-play-state: inherit;
 }
 
 @keyframes rotate {
