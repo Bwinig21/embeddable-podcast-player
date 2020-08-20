@@ -7,7 +7,8 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: #ffffff00;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 #title {
@@ -24,16 +25,35 @@ body {
   height: 100%;
   padding: 0.3em;
   box-sizing: border-box;
-  background: linear-gradient(90deg, #f1f100 25%, #ff0000 0%) top/100% 50%
-      no-repeat,
-    linear-gradient(90deg, #000000 75%, #0000ff 0%) top/100% 50%;
   border-radius: 10px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#colored::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -150%;
+  top: -150%;
+  width: 400%;
+  height: 400%;
+  background-repeat: no-repeat;
+  background-image: conic-gradient(#f1f100 0turn .25turn, #ff0000 .25turn .5turn, #000000 .5turn .75turn, #0000ff .75turn 1turn);
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
 }
 
 #inner {
   height: 100%;
-  padding: 0.2em;
-  box-sizing: border-box;
   display: flex;
   background: #ffffff;
   border-radius: 7px;
