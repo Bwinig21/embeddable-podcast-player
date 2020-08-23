@@ -27,7 +27,7 @@ If an issue has a blue label it most likely means we screwed up in our README.md
 Before we fix the bug, update the documentation, or add the feature described in the issue, we want your feedback on what the changes should look like in order to best support you as a developer and/or a podcaster. Feel free to react to comments you agree with using a :+1: or add your own feedback and ideas in a new comment, even if the issue already has an assignee. Issues with this label have a better outcome for everyone when we hear more from you and the rest of the community.
 
 #### Pink-ish: `question`
-Issues with this label are questions about how to use or contribute to the project. These are usually answered at the same time the label is applied, but you're welcome to share additional information or suggest that we answer the question in our documentation (if the issue doesn't already have a `documentation` label.
+Issues with this label are questions about how to use or contribute to the project. These are usually answered at the same time the label is applied, but you're welcome to share additional information or suggest that we answer the question in our documentation (if the issue doesn't already have a `documentation` label).
 
 #### White: `duplicate`, `invalid`, and `won't fix`
 Issues with white labels requre no action, although they might have useful information about a bug reported in another issue or the intended functionality of the player. If you disagree with on of these labels being applied to an issue, let us know and we'll review our decision.
