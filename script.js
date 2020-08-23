@@ -45,7 +45,7 @@ function playPause() {
   }
 }
 
-//Animate progress bar
+//Update progress bar
 function updateProgress() {
   "use strict";
   progressBar.value = audio.currentTime;
