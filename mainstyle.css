@@ -81,8 +81,8 @@ body {
 #playback {
   width: 100%;
   margin: auto;
-  margin-left: .5em;
-  margin-right: .75em;
+  margin-left: 7px;
+  margin-right: 20px;
 }
 
 #info {
