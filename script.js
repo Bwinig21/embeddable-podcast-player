@@ -24,8 +24,6 @@ progressBar.max = episode.duration;
 progressBar.value = 0;
 var border = getElem("colored");
 var playing = false;
-var interval;
-var updateInterval = 500; //Interval between progress bar updates
 
 //End of episode resets controls
 audio.addEventListener("ended", function () {
@@ -64,7 +62,7 @@ function play() {
   audio.play();
   getElem("playPause").src = "assets/pause.svg";
   getElem("playPause").alt = "Pause";
-  interval = setInterval(updateProgress, updateInterval);
+  audio.addEventListener("timeupdate", updateProgress);
   displayInfo();
   border.style.animationPlayState = "running";
 }
@@ -76,7 +74,7 @@ function pause() {
   audio.pause();
   getElem("playPause").src = "assets/play.svg";
   getElem("playPause").alt = "Play";
-  clearInterval(interval);
+  audio.removeEventListener("timeupdate", updateProgress)
   border.style.animationPlayState = "paused";
 }
 
@@ -85,12 +83,19 @@ function skip() {
   "use strict";
   audio.currentTime = progressBar.value;
   if (playing) {
-    interval = setInterval(updateProgress, updateInterval);
+    audio.addEventListener("timeupdate", updateProgress);
   }
 }
 
 //Stop updating progress bar
 function preventUpdate() {
   "use strict";
-  clearInterval(interval);
+  audio.removeEventListener("timeupdate", updateProgress);
+}
+
+//Process keyboard events
+function keypress() {
+  if (event.code == "Space") {
+    playPause();
+  };
 }
