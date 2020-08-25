@@ -10,7 +10,7 @@
 <!--Audio element-->
 <audio id="audio" preload="none"></audio>
 
-<body>
+<body onkeyup="keypress()">
   <!--Colorful border-->
   <div id="colored">
     <!--Inner solid-color area-->
@@ -25,7 +25,7 @@
           <h2 id="description"></h2>
         </div>
         <!--Progress bar-->
-        <input type="range" id="progress" min="0" max="" onmousedown="preventUpdate()" onchange="skip()" />
+        <input type="range" id="progress" min="0" max="" oninput="preventUpdate()" onchange="skip()">
       </div>
       <!--Episode artwork-->
       <img id="artwork" alt="Episode artwork" />
