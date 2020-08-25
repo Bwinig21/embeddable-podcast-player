@@ -52,7 +52,7 @@ function updateProgress() {
 //Episode info animation
 function displayInfo() {
   "use strict";
-  getElem("info").style.cssText = "margin-top: .25em;opacity:1;";
+  getElem("info").style.cssText = "margin-top: .5em;opacity:1;";
 }
 
 //Switch from paused to playing
